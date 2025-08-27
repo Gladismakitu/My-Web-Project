@@ -11,15 +11,21 @@ I will be creating a massage & spa website detailed for all social classes and g
 -We also wish to wellcome all types of people therefore, create a website that will be inviting to all social class people while maintaing the idea aesthetic.
 ### Key features and functionality
 1.A navigation bar that links all the pages when clinked
+
 2.Home page
 A welcoming page for users with the presentation of the logo.
+
 3. About page
 A background story of the company and more detailed presentation.
-4. Contact page
-	Contact information, location and operational hours and days, social media links and booking details and inquires. 
-5. Products and services
-	The products and services details including prices and the types of Services offered.
-6. Enquiries page
+
+5. Contact page
+	Contact information, location and operational hours and days, social media links and booking details and inquires.
+
+7. Products and services
+	The products and services details including prices and the types of Services
+offered.
+
+9. Enquiries page
 Surveys
 ### Time line and Milestone
 -The project kickoff 
