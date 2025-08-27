@@ -17,16 +17,13 @@ A welcoming page for users with the presentation of the logo.
 
 3. About page
 A background story of the company and more detailed presentation.
-
-5. Contact page
-	Contact information, location and operational hours and days, social media links and booking details and inquires.
-
+5.Contact page
+Contact information, location and operational hours and days, social media links and booking details and inquires.
 7. Products and services
-	The products and services details including prices and the types of Services
+The products and services details including prices and the types of Services
 offered.
-
 9. Enquiries page
-Surveys
+ Surveys
 ### Time line and Milestone
 -The project kickoff 
 -Finish and submit part 1
