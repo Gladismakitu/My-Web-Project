@@ -42,4 +42,5 @@ Enquires- Customers' form
 1.	Site for wireframe -https://app.diagrams.net/ 
 2.	 Coursera Staff, What Does a Web Designer Do? (And How to Become One), 2025
 3.	https://www.fabulousflowers.co.za/products/serenity-spa?srsltid=AfmBOoqjqw98NMeROd46vY2f__Se7KrOgleXW1ts2qT0XAxRjs7iRdhJ
+pictures from pintest-https://za.pinterest.com/
 

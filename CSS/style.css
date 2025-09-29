@@ -1,43 +1,199 @@
-body { background-color:beige;
-}
-/* Header navigation */
-header {display: flex;
-    justify-content: space-between;
-    
-    padding: 15 px 30px;
-}
-nav a {
-    margin: 0 10px;
-    text-decoration: none;
-    font-weight: bold;
-    color: #6a4e42;
-    text-align: center; }
-    h1 { text-align: center;
-    padding: 50px 20px;
-background-color: #6a4e42;
-font-size: 2.5em;
-margin-bottom: 10px;}
-/* Logo area */
-img {
+body { background-color: whitesmoke;
+      font-size: 1em;
+     font-family: Arial, sans-serif;
+     line-height: 1.5em;
+    font-weight: 1em;
+    padding: 0;
+    margin: 0;
     text-align: center;
-    margin: 30px 0;
+}
+
+/* Header */
+header {
+    padding-top: 3em;
+    min-height: 7em;
+    color: black;
+    background-color: saddlebrown;
 
 }
+header a {
+        color: black;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 1em;
+
+}
+header li {
+    float: left;
+    display: inline;
+    padding: 0 2em;
+}
+header #container {
+    float: left;
+}
+header nav {
+    float: right;
+    margin-top: 1em;
+}
+header .hightlight,
+header .current a {
+    color: blanchedalmond;
+    font-weight: bold;
+}
+header a:hover {
+    color: blanchedalmond;
+    font-weight: bold;
+}
+/* Navigation */
+nav ul {
+    list-style: none;
+    padding: 0;
+}  
+nav ul li {
+    position: relative;
+    display: inline-block;
+} 
+ nav ul li a {
+        color: blanchedalmond;
+        text-decoration: none;
+        padding: 1em 2em;
+        display: block;
+
+    }
+
 /* Footer */
 footer {
     text-align: center;
-    padding: 15px;
+    padding: 1em;
     font-size: 0.9em;
     background: #fff;
-    margin-top: 40px;
+    margin-top: 2em;
     color: #666;
-    border-top: 1px solid #ddd;
+    border-top: 1em solid #ddd;
 }
-/* search bar */
-.search-box { display: flex;
-align-items: center;
-width: 300px;}
+/* Button style */
+button {
+font-weight: 500;
+padding: 1em 2em;
+background: saddlebrown;
+border: none;
+border-radius: 1em;
+cursor: pointer;
+transition: .4s;
 
+}
+/* About picture floating */
+.images-layout {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    height: auto;
+}
+.images-layout img {
+    border-radius: 4%;
+}
+/* Button Hover */
+button:hover{
+  background-color: saddlebrown;
+  color: blanchedalmond;
+  font-weight: bold;
+}
+h1,h2,h3,h4 {
+    color: saddlebrown;
+}
+/* Service boxes */
+.image-row { display: flex;
+       justify-content: center;
+       gap: 2em;
+}
+.boxes img {
+    border-radius: 4%; 
+    height: 40%;
+    width: 40%;
+}
+.boxes h3,p {
+    justify-content: center;
+}
+.boxes h3:hover {
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .4s;
 
+}
+/* Products style */
+.products img {
+    height: 50%;
+    width: 50%;
+    align-items: center;
 
+}
+.information p {
+    padding: 1em 2em;
+background: sienna;
+}
+/* contact page */
+.contact { text-align: right; 
+    margin-right: 3em; color: saddlebrown;}
 
+.email { text-decoration: overline ; 
+    font-family: "bauhaus 93", cursive;
+    font-size: 3em;}
+
+.other { font-size: 1,8rem; 
+    font-family: Arial, sans-serif; 
+}
+input, textarea {
+    padding: 0.6em;
+    border: 0.0625rem solid blanchedalmond;
+    border-radius: 0.6rem;
+    font-size: 1rem;
+   
+}
+/* The logo */
+.logo {
+    width: auto;
+    height: auto;
+    align-items: center;
+}
+
+/* ----- MEDIA QUERY == 1024PX / RESPONSIVE ----- */ 
+@media only screen and (max-width: 1024px) {
+    .featured-text{
+        padding: 0;
+    }
+    .image, .image img{
+        width: 320px;
+        height: 320px;
+    }
+}
+ 
+@media only screen and (max-width: 900px){
+Almost all that you want to behave differently from a desktop
+}
+ 
+@media only screen and (max-width: 540px){
+    .featured-name{
+        font-size: 40px;
+    }
+    .project-box{
+        width: 100%;
+    }
+    .form-inputs{
+        flex-direction: column;
+    }
+    .input-field{
+        width: 100%;
+    }
+}
+aside#sidebar {
+  float: right;
+  width: 30%;
+  margin-top: 10px;
+}
+ 
+aside#sidebar .quote input,
+aside#sidebar .quote textarea {
+  width: 90%;
+  padding: 5px;
+}
